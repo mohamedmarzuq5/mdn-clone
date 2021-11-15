@@ -134,7 +134,7 @@ ul {
 }
 
 
-#side-bar {
+#aside-container {
   position: fixed;
   min-width: 290px;
   top: 0px;
@@ -152,7 +152,7 @@ main {
   width: 75%;
 }
 
-header {
+main header {
   font-size: 1.6rem;
   padding-left: 30px;
   padding-top: 25px;
