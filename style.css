@@ -78,7 +78,7 @@ select {
 }
 
 html {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 body {
@@ -87,38 +87,18 @@ body {
     overflow-x: hidden;
 }
 
-#all-contents {
-  display: flex;
-}
-
-#container-1 {
-  width: 27%;
-  height: auto;
-  height: fit-content;
-}
-
-li, 
-h1 {
-  padding-left: 50px;
-}
-
-hr {
-  width: 100%;
-  background-color: white;
-}
-
-h1 {
-  padding-top: 3%;
-  font-size: 1.6rem;
+ul {
+  padding: 0;
+  margin-top: 9px;
 }
 
 #aside-container li {
   font-size: .9rem;
+  margin-bottom: 3.5px;
 }
 
 a {
   all: unset;
-  color: #000 !important;
   font-weight: 100;
   list-style: none;
   cursor: pointer;
@@ -126,26 +106,26 @@ a {
 
 
 #aside-container {
-  position: fixed;
   min-width: 290px;
   top: 0px;
   left: 0px;
-  width: 25%;
+  width: 30%;
   height: 100%;
 }
 
-main {
-  color: black;
-  margin-left: auto;
-  min-width: 290px;
-  top: 0px;
-  left: 0px;
-  width: 75%;
+h2 {
+  font-size: 1.21rem;
+  text-align: left;
 }
 
-main header {
-  font-size: 1.6rem;
-  padding-left: 30px;
-  padding-top: 25px;
-  font-weight: 600;
+aside #aside-container {
+  margin: 25px 0 0 25px;
+}
+
+.main-list-a {
+  color: #005282 ;
+}
+
+.main-list-a:hover {
+  text-decoration: underline;
 }
