@@ -112,7 +112,7 @@ h1 {
   font-size: 1.6rem;
 }
 
-li {
+#aside-container li {
   font-size: .9rem;
 }
 
@@ -122,15 +122,6 @@ a {
   font-weight: 100;
   list-style: none;
   cursor: pointer;
-}
-
-ul {
-  height: 88%;
-  padding: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-  overflow-y: auto;
-  padding: 0;
 }
 
 
