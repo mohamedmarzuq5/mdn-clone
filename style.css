@@ -78,7 +78,7 @@ select {
 }
 
 html {
-    font-size: 20px;
+    font-size: 17.5px;
 }
 
 body {
@@ -107,8 +107,6 @@ a {
 
 #aside-container {
   min-width: 290px;
-  top: 0px;
-  left: 0px;
   width: 30%;
   height: 100%;
 }
@@ -128,4 +126,8 @@ aside #aside-container {
 
 .main-list-a:hover {
   text-decoration: underline;
+}
+
+#list-2 {
+  ba
 }
