@@ -224,3 +224,31 @@ p {
 .none {
   display: none;
 }
+
+#responsive-main-ul {
+  position: fixed;
+  border: 2px solid #005282;
+  width: 200px;
+  height: auto;
+  padding: 10px 0 20px 20px;
+  background-color: #fff;
+  top: 63px;
+}
+
+.responsive-main-li {
+  margin-top: 10px;
+}
+
+#responsive-details {
+  display: none;
+}
+
+@media only screen and (max-width :1200px) {
+  #responsive-details {
+    display: initial;
+  }
+
+  #ab-1200 {
+    display: none;
+  }
+}
