@@ -83,6 +83,7 @@ body {
     color: #000;
     overflow-x: hidden;
     font-family: arial,x-locale-body,sans-serif, zillaslab,palatino,"Palatino Linotype",serif;
+    display: flex;
 }
 
 ul {
@@ -103,16 +104,13 @@ a {
   cursor: pointer;
 }
 
-
-#aside-container {
-  min-width: 290px;
-  width: 30%;
-  height: 100%;
+h1 {
+  font-size: 2.5rem !important;
 }
 
 h2 {
   font-size: 1.21rem;
-  text-align: left;
+  /* text-align: left; */
 }
 
 aside #aside-container {
@@ -166,4 +164,16 @@ summary {
 
 .mt-20 {
   margin-top: 20px;
+}
+
+aside {
+  /* background-color: #000; */
+  min-width: 290px;
+  width: 27%;
+  height: 100%;
+}
+
+.container {
+  margin-top: 25px;
+  text-align: left;
 }
