@@ -21,7 +21,8 @@ dd {
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role='list'],
-ol[role='list'] {
+ol[role='list'], 
+li {
   list-style: none;
 }
 
@@ -73,10 +74,6 @@ select {
   }
 }
 
-* {
-  list-style-type: none;
-}
-
 html {
     font-size: 17.5px;
 }
@@ -85,11 +82,13 @@ body {
     background-color: white;
     color: #000;
     overflow-x: hidden;
+    font-family: arial,x-locale-body,sans-serif, zillaslab,palatino,"Palatino Linotype",serif;
 }
 
 ul {
   padding: 0;
   margin-top: 9px;
+  margin-bottom: 0;
 }
 
 #aside-container li {
@@ -100,7 +99,7 @@ ul {
 a {
   all: unset;
   font-weight: 100;
-  list-style: none;
+  /* list-style: none; */
   cursor: pointer;
 }
 
@@ -129,5 +128,42 @@ aside #aside-container {
 }
 
 #list-2 {
-  ba
+  margin-top: 30px;
+}
+
+#list-2 header h2 {
+  font-weight: 300;
+}
+
+#list-2-ul {
+  margin-top: 20px;
+}
+
+.list-2-li {
+  margin-bottom: 0 !important;
+}
+
+#a-2-js {
+  font-size: .79rem;
+  font-style: italic;
+  font-weight: 600 !important;
+}
+
+#li-2-tutorials {
+  margin-top: 10px;
+  margin-bottom: 0 !important;
+}
+
+#a-2-tutorials {
+  font-weight: 600 !important;
+  font-size: .79rem;
+}
+
+summary {
+  cursor: pointer;
+  font-size: .81rem;
+}
+
+.mt-20 {
+  margin-top: 20px;
 }
